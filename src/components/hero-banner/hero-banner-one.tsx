@@ -23,7 +23,7 @@ const HeroSliderOne = ({ style_2=false,slider_cls }:IProps) => {
   const {hero_slider_one} = HeroSliderData;
   return (
     <>
-      <section className={`slider__area ${style_2 ? `slider__area-${slider_cls?slider_cls:'2'}` : ''} p-relative`}>
+      <section className={`slider__area ${style_2 ? `slider__area-${slider_cls?slider_cls:'2'}` : ''} p-relative`} style={{width: "100%"}}>
         <Slider className='slider-active' {...settings}>
           {
             hero_slider_one.map((slider, index) => {

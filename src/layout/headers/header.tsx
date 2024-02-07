@@ -41,7 +41,7 @@ const Header = ({ header_big, white_bg }: IProps) => {
           <div className={`${header_big ? "container-fluid" : "container"}`}>
             <div className="row align-items-center">
               <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4">
-                <div className="logo" style={{marginTop: '20px', marginBottom: '20px'}}>
+                <div className="logo">
                   <Link href="/">
                     <Image src={logo} alt="logo" priority />
                   </Link>

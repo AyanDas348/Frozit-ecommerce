@@ -16,6 +16,7 @@ export const metadata: Metadata = {
 
 export default async function ProductDetailsPage({params}:{params:{id:string}}) {
   const file = await fs.readFile(process.cwd() + '/src/app/product-data.json', 'utf8');
+  console.log(file)
   const product_data = JSON.parse(file);
   const product = product_data.find((p:IProduct) => p.id === Number(params.id));
   return (

@@ -10,9 +10,9 @@ import { IProduct } from "@/types/product-d-t";
 // prop type
 type IProps = {
   feature_products: IProduct[];
-  brands: string[];
-  colors: string[];
-  sizes: string[];
+  // brands: string[];
+  // colors: string[];
+  // sizes: string[];
 };
 
 const ShopSidebar = ({

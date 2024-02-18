@@ -199,9 +199,9 @@ const ShopArea = ({product_data,shop_right,shop_col}:IProps) => {
             {/* shop sidebar start */}
             <ShopSidebar
               feature_products={feature_products}
-              brands={brands}
-              colors={uniqueColors}
-              sizes={uniqueSizes}
+              // brands={brands}
+              // colors={uniqueColors}
+              // sizes={uniqueSizes}
             />
             {/* shop sidebar end */}
           </div>}

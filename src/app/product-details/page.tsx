@@ -8,18 +8,19 @@ import Footer from "@/layout/footers/footer";
 import ProductDetailsUpper from "@/components/product-details/product-details-upper";
 import ProductDetailsBottom from "@/components/product-details/product-details-bottom";
 import RelatedProducts from "@/components/products/related-products";
+import product_data from "@/data/product-data";
 
 export const metadata: Metadata = {
   title: "Shop Details Page",
 };
 
 export default async function ProductDetailsPage() {
-  const file = await fs.readFile(
-    process.cwd() + "/src/app/product-data.json",
-    "utf8"
-  );
-  const product_data = JSON.parse(file);
-  const product = [...product_data][0];
+  // const file = await fs.readFile(
+  //   process.cwd() + "/src/app/product-data.json",
+  //   "utf8"
+  // );
+  // const product_data = JSON.parse(file);
+  const product = product_data[0];
   return (
     <Wrapper>
       {/* header start */}

@@ -53,7 +53,7 @@ const Brands = ({ df }: { df?: boolean }) => {
     <>
       <section
         className={`client__area ${df ? "" : "pt-15 pb-140"}`}
-        style={{ backgroundColor: "#ffd583", color: "#8D004B" }}
+        style={{ backgroundColor: "", color: "#8D004B" }}
       >
         <div className="container">
           <div className="row">

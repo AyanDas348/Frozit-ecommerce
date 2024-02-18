@@ -3,7 +3,7 @@ import { IProduct } from "../types/product-d-t";
 const product_data:IProduct[] = [
   {
     id: 1,
-    img: '/assets/img/shop/product/product_1.png',
+    img: '/assets/img/shop/product/cookies_1.png',
     trending:true,
     banner:true,
     related_images: [
@@ -13,8 +13,8 @@ const product_data:IProduct[] = [
     ],
     thumb_img: '/assets/img/shop/product/product_3.png',
     banner_img:'/assets/img/shop/banner/banner-big-1.jpg',
-    parentCategory:'Decoration & Accessories',
-    category: 'Accessories',
+    parentCategory:'Bakery',
+    category: 'Bakery',
     brand: 'Sony',
     title: 'Wooden container Bowl',
     price: 96,

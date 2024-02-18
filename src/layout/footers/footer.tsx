@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/assets/img/logo/logo-2.png";
+import logo from "@/assets/img/logo/logo.png";
 import SocialLinks from "./social-links";
 
 const footerWidget = [
@@ -121,8 +121,14 @@ const Footer = ({ style_2 }: { style_2?: boolean }) => {
                 <div className="footer__copyright">
                   <p>
                     Copyright © <Link href="/">FROZIT {"          "}</Link>
-                    All rights reserved | Designed & Developed by {" "}
-                    <Link href="https://ayan-das.vercel.app" target="_blank" rel="noopener noreferrer">Ayan</Link>
+                    All rights reserved <br /> Designed & Developed by{" "}
+                    <Link
+                      href="https://ayan-das.vercel.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Ayan
+                    </Link>
                   </p>
                 </div>
               </div>

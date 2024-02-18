@@ -10,7 +10,7 @@ const NavManus = () => {
           return (
             <li key={index} className={`${item.hasDropdown && !item.megamenu ? 'active has-dropdown'
               : item.megamenu && 'mega-menu has-dropdown'}`}>
-              <Link href={`${item.link}`}>{`${item.title}`}</Link>
+              <Link href={`${item.link}`} style={{color: "#8D004B", fontWeight: "200", fontSize: `${item.fontSize}`}}>{`${item.title}`}</Link>
 
               {item?.hasDropdown && !item.megamenu && <ul className="submenu transition-3">
                 {item?.dropdownItems?.map((menu, index) => (

@@ -12,13 +12,13 @@ type IProps = {
 const SaleOffProducts = ({products,spacing = "pb-100",style_2 = false}:IProps) => {
   const discount_products = products.filter((p) => p.discount! > 0);
   return (
-    <section className={`sale__area ${spacing}`} style={{ backgroundColor: "#ffd583", color: "#8D004B"}}>
+    <section className={`sale__area ${spacing}`} style={{ backgroundColor: "", color: "#8D004B"}}>
       <div className="container">
         <div className="row">
           <div className="col-xl-12">
             <div className="section__title-wrapper text-center mb-55">
-              <div className="section__title mb-10" style={{ backgroundColor: "#ffd583", color: "#8D004B"}}>
-                <h2 style={{ backgroundColor: "#ffd583", color: "#8D004B"}}>Sale Off</h2>
+              <div className="section__title mb-10" style={{ backgroundColor: "", color: "#8D004B"}}>
+                <h2 style={{ backgroundColor: "", color: "#8D004B"}}>Sale Off</h2>
               </div>
               <div className="section__sub-title">
                 <p>
@@ -29,7 +29,7 @@ const SaleOffProducts = ({products,spacing = "pb-100",style_2 = false}:IProps) =
           </div>
         </div>
         {!style_2 && (
-          <div className="sale__area-slider">
+          <div className="sale__area-slider" style={{margin: "10px"}}>
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5">
               {discount_products.slice(0, 5).map((product, i) => (
                 <div key={i} className="col sale__item">

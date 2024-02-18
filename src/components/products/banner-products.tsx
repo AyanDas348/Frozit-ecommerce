@@ -12,14 +12,14 @@ type IProps = {
 
 // img style
 const imgStyle = {
-  width: "100%",
-  height: "100%",
+  width: "50%",
+  height: "50%",
 };
 
 const BannerProducts = ({ style_2, products, style_3 }: IProps) => {
   const bannerProducts = products.filter((p) => p.banner).slice(0, 2);
   return (
-    <div className="banner__area-2 pb-60" style={{ backgroundColor: "#ffd583", color: "#8D004B"}}>
+    <div className="banner__area-2 pb-60" style={{ backgroundColor: "", color: "#8D004B"}}>
       <div className={`container-fluid ${style_2 ? "" : "p-0"}`}>
         <div className="row g-0">
           {bannerProducts.map((item, index) => (
@@ -29,12 +29,12 @@ const BannerProducts = ({ style_2, products, style_3 }: IProps) => {
             >
               <div className="banner__item-2 p-relative mb-30">
                 <div className="banner__thumb fix">
-                  <Link href={`/product-details/${item.id}`} className="w-img">
+                  <Link href={`/product-details/${item.id}`} className="w-img" style={{justifyContent: "end", display: "flex"}}>
                     <Image
                       src={item.banner_img!}
                       alt="banner"
-                      width={937}
-                      height={451}
+                      width={200}
+                      height={200}
                       style={imgStyle}
                     />
                   </Link>
@@ -42,7 +42,7 @@ const BannerProducts = ({ style_2, products, style_3 }: IProps) => {
                 <div
                   className={`banner__content-2 ${style_3 ? "banner__content-4" : ""} ${index !== 0 && style_3 ? "banner__content-4-right" : "" } p-absolute transition-3`}
                 >
-                  <span>Products {item.category}</span>
+                  <span color="#8D004B">Products {item.category}</span>
                   <h4>
                     <Link href={`/product-details/${item.id}`}>{item.title}</Link>
                   </h4>

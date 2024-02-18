@@ -48,26 +48,35 @@ const Header = ({ header_big, white_bg }: IProps) => {
                 </div>
               </div>
               <div className="col-xl-9 col-lg-9 col-md-8 col-sm-8">
-                <div className="header__right p-relative d-flex justify-content-between align-items-center">
+                <div className="header__right p-relative d-flex justify-content-evenly align-items-center">
                   <div className="main-menu d-none d-lg-block">
-                    <nav>{/* <NavManus /> */}</nav>
+                    <nav>
+                      <div className="main-menu d-none d-lg-block">
+                        <nav>
+                          <NavManus />
+                        </nav>
+                      </div>
+                    </nav>
                   </div>
-                  <div className="mobile-menu-btn d-lg-none">
+                  {/* <div className="mobile-menu-btn d-lg-none">
                     <button
                       onClick={() => setShowSidebar(true)}
                       className="mobile-menu-toggle"
                     >
                       <i className="fas fa-bars"></i>
                     </button>
-                  </div>
+                  </div> */}
                   <div className="header__action">
                     <ul>
                       <li>
-                        <div className="main-menu d-none d-lg-block">
-                          <nav>
-                            <NavManus />
-                          </nav>
-                        </div>
+                        <Link
+                          href={`/contact`}
+                          style={{
+                            color: "#8D004B",
+                            fontWeight: "200",
+                            fontSize: `15px`,
+                          }}
+                        >{`Contact`}</Link>
                       </li>
                       <li>
                         <button

@@ -93,8 +93,9 @@ const menuData:IMenuType[] = [
   //   ]
   // },
   {
-    link: '/contact',
-    title: 'Contact',
+    link: '/shop',
+    title: 'SHOP',
+    fontSize: '30px'
   },
 ]
 
@@ -104,7 +105,8 @@ export default menuData;
 export const mobile_menus:IMobileMenu[] = [
   {
     title: "Home",
-    link: '/'
+    link: '/',
+    fontSize: '20px',
     // dropdownMenu: [
     //   { link: '/', title: 'Home Style 1' },
     //   { link: '/home-2', title: 'Home Style 2' },
@@ -152,5 +154,6 @@ export const mobile_menus:IMobileMenu[] = [
   {
     title: "Contact",
     link: '/contact',
+    fontSize: '20px',
   },
 ];

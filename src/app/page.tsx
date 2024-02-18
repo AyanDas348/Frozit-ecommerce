@@ -50,7 +50,7 @@ export default async function HomePage() {
         {/* brand area end */}
 
         {/* blog area start */}
-        <BlogArea />
+        {/* <BlogArea /> */}
         {/* blog area end */}
 
         {/* subscribe area start */}

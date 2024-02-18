@@ -12,23 +12,23 @@ type IProps = {
 
 function TrendingProducts({products,style_2=false,container='container'}: IProps) {
   const trendingProducts = products.filter((p) => p.trending);
-  const [perView, setPerView] = useState<number>(style_2 ? 10 : 8);
+  const [perView, setPerView] = useState<number>(style_2 ? 10 : 4);
 
   const handlePerView = () => {
     setPerView(perView + 4);
   };
 
   return (
-    <section className="product__area pt-60 pb-100" style={{backgroundColor: '#ffd583'}}>
+    <section className="product__area pt-60 pb-100" style={{backgroundColor: ''}}>
       <div className={`${container}`}>
         <div className="row">
           <div className="col-xl-12">
             <div className="section__title-wrapper text-center mb-55">
               <div className="section__title mb-10">
-                <h2 style={{ backgroundColor: "#ffd583", color: "#8D004B"}}>Trending Products</h2>
+                <h2 style={{ backgroundColor: "", color: "#8D004B"}}>Trending Products</h2>
               </div>
               <div className="section__sub-title p-relative">
-                <p style={{ backgroundColor: "#ffd583", color: "#8D004B"}}>
+                <p style={{ backgroundColor: "", color: "#8D004B"}}>
                   Check out the latest trending products we currently have
                 </p>
               </div>
@@ -49,7 +49,7 @@ function TrendingProducts({products,style_2=false,container='container'}: IProps
           {style_2 && (
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5">
               {trendingProducts.slice(0, perView).map((item, index) => (
-                <div key={index} className="col">
+                <div key={index} className="col" style={{ backgroundColor: "#ffd583", color: "#8D004B"}}>
                   <ProductItem product={item} />
                 </div>
               ))}

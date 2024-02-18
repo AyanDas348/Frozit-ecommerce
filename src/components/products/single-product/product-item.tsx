@@ -14,6 +14,8 @@ import { handleModalProduct, handleOpenModal } from "@/redux/features/utility";
 const imgStyle = {
   width: "100%",
   height: "100%",
+  backgroundColor: "#ffd583",
+  color: "#8D004B",
 };
 
 const ProductItem = ({ product }: { product: IProduct }) => {
@@ -32,9 +34,9 @@ const ProductItem = ({ product }: { product: IProduct }) => {
   }, [cart_products, compare_products, product.id, wishlist]);
 
   const handleProductModal = (prd: IProduct) => {
-    dispatch(handleModalProduct({ product: prd }))
-    dispatch(handleOpenModal())
-  }
+    dispatch(handleModalProduct({ product: prd }));
+    dispatch(handleOpenModal());
+  };
 
   return (
     <div className="product__wrapper mb-60">
@@ -67,17 +69,8 @@ const ProductItem = ({ product }: { product: IProduct }) => {
             <i className="fal fa-heart"></i>
           </a>
           <a
-            onClick={() => dispatch(add_to_compare(product))}
-            className={`cursor-pointer ${isCompareAdd ? "active" : ""}`}
-            data-toggle="tooltip"
-            data-placement="top"
-            title="Compare"
-          >
-            <i className="fal fa-sliders-h"></i>
-          </a>
-          <a
             className="cursor-pointer"
-            onClick={() =>handleProductModal(product)}
+            onClick={() => handleProductModal(product)}
           >
             <i className="fal fa-search"></i>
           </a>
@@ -95,29 +88,38 @@ const ProductItem = ({ product }: { product: IProduct }) => {
             <Link
               href={`/product-details/${product.id}`}
               dangerouslySetInnerHTML={{ __html: product.title }}
+              style={{ color: "#8D004B" }}
             ></Link>
           </h4>
-          <div className="product__price transition-3">
-            <span>${product.price.toFixed(2)}</span>
+          <div className="product__price">
+            <span style={{ color: "#8D004B" }}>
+              ${product.price.toFixed(2)}
+            </span>
             {product.old_price && (
-              <span className="old-price">${product.old_price.toFixed(2)}</span>
+              <span className="old-price" style={{ color: "#8D004B" }}>
+                ${product.old_price.toFixed(2)}
+              </span>
             )}
           </div>
         </div>
-        <div className="add-cart p-absolute transition-3">
-          {isItemAddToCart ? (
-            <Link href="/cart" className="cursor-pointer">
-              View Cart
-            </Link>
-          ) : (
-            <a
-              onClick={() => dispatch(add_cart_product(product))}
-              className="cursor-pointer"
-            >
-              + Add to Cart
-            </a>
-          )}
-        </div>
+        {isItemAddToCart ? (
+          <Link
+            href="/cart"
+            className="cursor-pointer"
+            style={{ color: "#8D004B" }}
+          >
+            View Cart
+          </Link>
+        ) : (
+          <a
+            onClick={() => dispatch(add_cart_product(product))}
+            className="cursor-pointer"
+            style={{ color: "#8D004B" }}
+          >
+            + Add to Cart
+          </a>
+        )}
+        <div className="add-cart p-absolute"></div>
       </div>
     </div>
   );

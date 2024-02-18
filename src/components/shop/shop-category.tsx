@@ -22,7 +22,7 @@ const ShopCategory = ({
   return (
     <>
       {!category_2 && (
-        <div className={`banner__area ${spacing}`} style={{backgroundColor: '#ffd583'}}>
+        <div className={`banner__area ${spacing}`} style={{backgroundColor: ''}}>
           <div className={`container ${style_3 ? "custom-container" : ""}`}>
             <div
               className={`${
@@ -39,7 +39,7 @@ const ShopCategory = ({
                   >
                     <div className="banner__item mb-30 p-relative">
                       <div className="banner__thumb fix">
-                        <Link href={`/shop`} className="w-img">
+                        <Link href={`/shop`} className="w-img" style={{justifyContent: "right", display: "flex"}}>
                           <Image
                             src={item.img!}
                             alt="banner"

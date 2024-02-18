@@ -3,21 +3,21 @@ import { ICategoryType } from "../types/category-d-t";
 const category_data:ICategoryType[] = [
   {
     id: 1,
-    img: '/assets/img/shop/banner/banner-sm-1.jpg',
-    parentTitle: "Lighting & Chair",
-    children:['Lighting','Chair']
+    img: '/assets/img/shop/product/cookies_1.png',
+    parentTitle: "Bakery",
+    children:['Chocolate','Bakery']
   },
   {
     id: 2,
-    img: '/assets/img/shop/banner/banner-sm-2.jpg',
-    parentTitle: "Decoration & Accessories",
-    children:['Decoration','Accessories']
+    img: '/assets/img/shop/product/rasiley_1.png',
+    parentTitle: "Refreshing Beverages",
+    children:['Beverages']
   },
   {
     id: 3,
-    img: '/assets/img/shop/banner/banner-sm-3.jpg',
-    parentTitle: "Clothing & Oil",
-    children:['Clothing','Oil']
+    img: '/assets/img/shop/banner/Ragi FLour.png',
+    parentTitle: "Daily Need Products",
+    children:['Daily']
   },
   {
     id: 4,

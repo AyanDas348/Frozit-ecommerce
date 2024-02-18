@@ -1,18 +1,18 @@
 [
   {
     "id": 1,
-    "img": "/assets/img/shop/product/product_1.png",
+    "img": "/assets/img/shop/product/cookies_1.png",
     "trending": true,
     "banner": true,
     "related_images": [
-      "/assets/img/shop/product/product_1.png",
-      "/assets/img/shop/product/product_2.png",
-      "/assets/img/shop/product/product_3.png"
+      "/assets/img/shop/product/cookies_1.png",
+      "/assets/img/shop/product/cookies_1.png",
+      "/assets/img/shop/product/cookies_1.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_3.png",
-    "banner_img": "/assets/img/shop/banner/banner-big-1.jpg",
+    "thumb_img": "/assets/img/shop/product/cookies_1.png",
+    "banner_img": "/assets/img/shop/product/cookies_1.png",
     "parentCategory": "Decoration & Accessories",
-    "category": "Accessories",
+    "category": "Bakery",
     "brand": "Sony",
     "title": "Wooden container Bowl",
     "price": 96,
@@ -71,14 +71,14 @@
   },
   {
     "id": 2,
-    "img": "/assets/img/shop/product/product_2.png",
+    "img": "/assets/img/shop/product/cookies_1.png",
     "trending": true,
     "related_images": [
-      "/assets/img/shop/product/product_2.png",
-      "/assets/img/shop/product/product_3.png",
-      "/assets/img/shop/product/product_4.png"
+      "/assets/img/shop/product/cookies_1.png",
+      "/assets/img/shop/product/cookies_1.png",
+      "/assets/img/shop/product/cookies_1.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_5.png",
+    "thumb_img": "/assets/img/shop/product/cookies_1.png",
     "parentCategory": "Lighting & Chair",
     "category": "Chair",
     "brand": "Sony",
@@ -136,18 +136,18 @@
   },
   {
     "id": 3,
-    "img": "/assets/img/shop/product/product_3.png",
+    "img": "/assets/img/shop/product/cookies_1.png",
     "trending": true,
     "banner": true,
     "related_images": [
-      "/assets/img/shop/product/product_3.png",
-      "/assets/img/shop/product/product_4.png",
-      "/assets/img/shop/product/product_5.png"
+      "/assets/img/shop/product/cookies_1.png",
+      "/assets/img/shop/product/cookies_1.png",
+      "/assets/img/shop/product/cookies_1.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_1.png",
-    "banner_img": "/assets/img/shop/banner/banner-big-2.jpg",
+    "thumb_img": "/assets/img/shop/product/cookies_1.png",
+    "banner_img": "/assets/img/shop/product/cookies_1.png",
     "parentCategory": "Clothing & Oil",
-    "category": "Clothing",
+    "category": "Bakery",
     "brand": "Panasonic",
     "title": "Set of 2 baskets",
     "price": 230,
@@ -203,16 +203,16 @@
   },
   {
     "id": 4,
-    "img": "/assets/img/shop/product/product_4.png",
+    "img": "/assets/img/shop/product/cookies_1.png",
     "trending": true,
     "discount": 8,
     "new": true,
     "related_images": [
-      "/assets/img/shop/product/product_4.png",
-      "/assets/img/shop/product/product_5.png",
-      "/assets/img/shop/product/product_6.png"
+      "/assets/img/shop/product/cookies_1.png",
+      "/assets/img/shop/product/cookies_1.png",
+      "/assets/img/shop/product/cookies_1.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_2.png",
+    "thumb_img": "/assets/img/shop/product/cookies_1.png",
     "parentCategory": "Lighting & Chair",
     "category": "Lighting",
     "brand": "Panasonic",
@@ -270,14 +270,14 @@
   },
   {
     "id": 5,
-    "img": "/assets/img/shop/product/product_5.png",
+    "img": "/assets/img/shop/product/cookies_5.png",
     "trending": true,
     "related_images": [
-      "/assets/img/shop/product/product_5.png",
-      "/assets/img/shop/product/product_6.png",
-      "/assets/img/shop/product/product_7.png"
+      "/assets/img/shop/product/cookies_5.png",
+      "/assets/img/shop/product/cookies_6.png",
+      "/assets/img/shop/product/cookies_7.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_8.png",
+    "thumb_img": "/assets/img/shop/product/cookies_8.png",
     "parentCategory": "Decoration & Accessories",
     "category": "Decoration",
     "brand": "Apple",
@@ -335,14 +335,14 @@
   },
   {
     "id": 6,
-    "img": "/assets/img/shop/product/product_6.png",
+    "img": "/assets/img/shop/product/cookies_6.png",
     "trending": true,
     "related_images": [
-      "/assets/img/shop/product/product_6.png",
-      "/assets/img/shop/product/product_7.png",
-      "/assets/img/shop/product/product_8.png"
+      "/assets/img/shop/product/cookies_6.png",
+      "/assets/img/shop/product/cookies_7.png",
+      "/assets/img/shop/product/cookies_8.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_1.png",
+    "thumb_img": "/assets/img/shop/product/cookies_1.png",
     "parentCategory": "FASHION FOR MEN’S",
     "category": "Shirt",
     "brand": "Apple",
@@ -400,15 +400,15 @@
   },
   {
     "id": 7,
-    "img": "/assets/img/shop/product/product_7.png",
+    "img": "/assets/img/shop/product/cookies_7.png",
     "trending": true,
     "new": true,
     "related_images": [
-      "/assets/img/shop/product/product_7.png",
-      "/assets/img/shop/product/product_8.png",
-      "/assets/img/shop/product/product_9.png"
+      "/assets/img/shop/product/cookies_7.png",
+      "/assets/img/shop/product/cookies_8.png",
+      "/assets/img/shop/product/cookies_9.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_6.png",
+    "thumb_img": "/assets/img/shop/product/cookies_6.png",
     "parentCategory": "Clothing & Oil",
     "category": "Oil",
     "brand": "Apple",
@@ -466,14 +466,14 @@
   },
   {
     "id": 8,
-    "img": "/assets/img/shop/product/product_8.png",
+    "img": "/assets/img/shop/product/cookies_8.png",
     "trending": true,
     "related_images": [
-      "/assets/img/shop/product/product_8.png",
-      "/assets/img/shop/product/product_9.png",
-      "/assets/img/shop/product/product_10.png"
+      "/assets/img/shop/product/cookies_8.png",
+      "/assets/img/shop/product/cookies_9.png",
+      "/assets/img/shop/product/cookies_10.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_4.png",
+    "thumb_img": "/assets/img/shop/product/cookies_4.png",
     "parentCategory": "Decoration & Accessories",
     "category": "Decoration",
     "brand": "Samsung",
@@ -531,14 +531,14 @@
   },
   {
     "id": 9,
-    "img": "/assets/img/shop/product/product_9.png",
+    "img": "/assets/img/shop/product/cookies_9.png",
     "discount": 12,
     "related_images": [
-      "/assets/img/shop/product/product_9.png",
-      "/assets/img/shop/product/product_10.png",
-      "/assets/img/shop/product/product_11.png"
+      "/assets/img/shop/product/cookies_9.png",
+      "/assets/img/shop/product/cookies_10.png",
+      "/assets/img/shop/product/cookies_11.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_7.png",
+    "thumb_img": "/assets/img/shop/product/cookies_7.png",
     "parentCategory": "Lighting & Chair",
     "category": "Chair",
     "brand": "Samsung",
@@ -595,14 +595,14 @@
   },
   {
     "id": 10,
-    "img": "/assets/img/shop/product/product_10.png",
+    "img": "/assets/img/shop/product/cookies_10.png",
     "discount": 25,
     "related_images": [
-      "/assets/img/shop/product/product_10.png",
-      "/assets/img/shop/product/product_11.png",
-      "/assets/img/shop/product/product_12.png"
+      "/assets/img/shop/product/cookies_10.png",
+      "/assets/img/shop/product/cookies_11.png",
+      "/assets/img/shop/product/cookies_12.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_8.png",
+    "thumb_img": "/assets/img/shop/product/cookies_8.png",
     "parentCategory": "Clothing & Oil",
     "category": "Clothing",
     "brand": "Apple",
@@ -659,15 +659,15 @@
   },
   {
     "id": 11,
-    "img": "/assets/img/shop/product/product_11.png",
+    "img": "/assets/img/shop/product/cookies_11.png",
     "trending": true,
     "discount": 16,
     "related_images": [
-      "/assets/img/shop/product/product_11.png",
-      "/assets/img/shop/product/product_12.png",
-      "/assets/img/shop/product/product_13.png"
+      "/assets/img/shop/product/cookies_11.png",
+      "/assets/img/shop/product/cookies_12.png",
+      "/assets/img/shop/product/cookies_13.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_9.png",
+    "thumb_img": "/assets/img/shop/product/cookies_9.png",
     "parentCategory": "Decoration & Accessories",
     "category": "Decoration",
     "brand": "Sony",
@@ -724,15 +724,15 @@
   },
   {
     "id": 12,
-    "img": "/assets/img/shop/product/product_12.png",
+    "img": "/assets/img/shop/product/cookies_12.png",
     "discount": 8,
     "new": true,
     "related_images": [
-      "/assets/img/shop/product/product_12.png",
-      "/assets/img/shop/product/product_13.png",
-      "/assets/img/shop/product/product_14.png"
+      "/assets/img/shop/product/cookies_12.png",
+      "/assets/img/shop/product/cookies_13.png",
+      "/assets/img/shop/product/cookies_14.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_10.png",
+    "thumb_img": "/assets/img/shop/product/cookies_10.png",
     "parentCategory": "Decoration & Accessories",
     "category": "Accessories",
     "brand": "Panasonic",
@@ -789,15 +789,15 @@
   },
   {
     "id": 13,
-    "img": "/assets/img/shop/product/product_13.png",
+    "img": "/assets/img/shop/product/cookies_13.png",
     "discount": 14,
     "trending": true,
     "related_images": [
-      "/assets/img/shop/product/product_13.png",
-      "/assets/img/shop/product/product_14.png",
-      "/assets/img/shop/product/product_15.png"
+      "/assets/img/shop/product/cookies_13.png",
+      "/assets/img/shop/product/cookies_14.png",
+      "/assets/img/shop/product/cookies_15.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_11.png",
+    "thumb_img": "/assets/img/shop/product/cookies_11.png",
     "parentCategory": "Lighting & Chair",
     "category": "Lighting",
     "brand": "Panasonic",
@@ -854,15 +854,15 @@
   },
   {
     "id": 14,
-    "img": "/assets/img/shop/product/product_14.png",
+    "img": "/assets/img/shop/product/cookies_14.png",
     "discount": 20,
     "bestSeller": true,
     "related_images": [
-      "/assets/img/shop/product/product_14.png",
-      "/assets/img/shop/product/product_15.png",
-      "/assets/img/shop/product/product_16.png"
+      "/assets/img/shop/product/cookies_14.png",
+      "/assets/img/shop/product/cookies_15.png",
+      "/assets/img/shop/product/cookies_16.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_13.png",
+    "thumb_img": "/assets/img/shop/product/cookies_13.png",
     "parentCategory": "Clothing & Oil",
     "category": "Clothing",
     "brand": "Sony",
@@ -918,14 +918,14 @@
   },
   {
     "id": 15,
-    "img": "/assets/img/shop/product/product_15.png",
+    "img": "/assets/img/shop/product/cookies_15.png",
     "trending": true,
     "related_images": [
-      "/assets/img/shop/product/product_15.png",
-      "/assets/img/shop/product/product_16.png",
-      "/assets/img/shop/product/product_17.png"
+      "/assets/img/shop/product/cookies_15.png",
+      "/assets/img/shop/product/cookies_16.png",
+      "/assets/img/shop/product/cookies_17.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_13.png",
+    "thumb_img": "/assets/img/shop/product/cookies_13.png",
     "big_img": "/assets/img/shop/product/product-big-1.jpg",
     "parentCategory": "Decoration & Accessories",
     "category": "Decoration",
@@ -984,14 +984,14 @@
   },
   {
     "id": 16,
-    "img": "/assets/img/shop/product/product_16.png",
+    "img": "/assets/img/shop/product/cookies_16.png",
     "discount": 13,
     "related_images": [
-      "/assets/img/shop/product/product_16.png",
-      "/assets/img/shop/product/product_17.png",
-      "/assets/img/shop/product/product_18.png"
+      "/assets/img/shop/product/cookies_16.png",
+      "/assets/img/shop/product/cookies_17.png",
+      "/assets/img/shop/product/cookies_18.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_13.png",
+    "thumb_img": "/assets/img/shop/product/cookies_13.png",
     "parentCategory": "Lighting & Chair",
     "category": "Lighting",
     "brand": "Samsung",
@@ -1047,14 +1047,14 @@
   },
   {
     "id": 17,
-    "img": "/assets/img/shop/product/product_17.png",
+    "img": "/assets/img/shop/product/cookies_17.png",
     "bestSeller": true,
     "related_images": [
-      "/assets/img/shop/product/product_17.png",
-      "/assets/img/shop/product/product_18.png",
-      "/assets/img/shop/product/product_19.png"
+      "/assets/img/shop/product/cookies_17.png",
+      "/assets/img/shop/product/cookies_18.png",
+      "/assets/img/shop/product/cookies_19.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_15.png",
+    "thumb_img": "/assets/img/shop/product/cookies_15.png",
     "big_img": "/assets/img/shop/product/fashion/fashion-b2.webp",
     "parentCategory": "Decoration & Accessories",
     "category": "Accessories",
@@ -1115,15 +1115,15 @@
   },
   {
     "id": 18,
-    "img": "/assets/img/shop/product/product_18.png",
+    "img": "/assets/img/shop/product/cookies_18.png",
     "topRated": true,
     "bestSeller": true,
     "related_images": [
-      "/assets/img/shop/product/product_18.png",
-      "/assets/img/shop/product/product_19.png",
-      "/assets/img/shop/product/product_20.png"
+      "/assets/img/shop/product/cookies_18.png",
+      "/assets/img/shop/product/cookies_19.png",
+      "/assets/img/shop/product/cookies_20.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_16.png",
+    "thumb_img": "/assets/img/shop/product/cookies_16.png",
     "big_img": "/assets/img/shop/product/fashion/fashion-b1.webp",
     "discount": 5,
     "parentCategory": "Clothing & Oil",
@@ -1184,15 +1184,15 @@
   },
   {
     "id": 19,
-    "img": "/assets/img/shop/product/product_19.png",
+    "img": "/assets/img/shop/product/cookies_19.png",
     "topRated": true,
     "bestSeller": true,
     "related_images": [
-      "/assets/img/shop/product/product_19.png",
-      "/assets/img/shop/product/product_20.png",
-      "/assets/img/shop/product/product_21.png"
+      "/assets/img/shop/product/cookies_19.png",
+      "/assets/img/shop/product/cookies_20.png",
+      "/assets/img/shop/product/cookies_21.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_17.png",
+    "thumb_img": "/assets/img/shop/product/cookies_17.png",
     "parentCategory": "FASHION FOR MEN’S",
     "category": "Shirt",
     "brand": "Apple",
@@ -1250,15 +1250,15 @@
   },
   {
     "id": 20,
-    "img": "/assets/img/shop/product/product_20.png",
+    "img": "/assets/img/shop/product/cookies_20.png",
     "topRated": true,
     "bestSeller": true,
     "related_images": [
-      "/assets/img/shop/product/product_20.png",
-      "/assets/img/shop/product/product_21.png",
-      "/assets/img/shop/product/product_22.png"
+      "/assets/img/shop/product/cookies_20.png",
+      "/assets/img/shop/product/cookies_21.png",
+      "/assets/img/shop/product/cookies_22.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_18.png",
+    "thumb_img": "/assets/img/shop/product/cookies_18.png",
     "discount": 8,
     "parentCategory": "Clothing & Oil",
     "category": "Oil",
@@ -1317,15 +1317,15 @@
   },
   {
     "id": 21,
-    "img": "/assets/img/shop/product/product_21.png",
+    "img": "/assets/img/shop/product/cookies_21.png",
     "trending": true,
     "topRated": true,
     "related_images": [
-      "/assets/img/shop/product/product_21.png",
-      "/assets/img/shop/product/product_22.png",
-      "/assets/img/shop/product/product_23.png"
+      "/assets/img/shop/product/cookies_21.png",
+      "/assets/img/shop/product/cookies_22.png",
+      "/assets/img/shop/product/cookies_23.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_16.png",
+    "thumb_img": "/assets/img/shop/product/cookies_16.png",
     "big_img": "/assets/img/shop/product/product-big-3.jpg",
     "parentCategory": "FASHION FOR WOMEN’S",
     "category": "Shoes",
@@ -1385,15 +1385,15 @@
   },
   {
     "id": 22,
-    "img": "/assets/img/shop/product/product_22.png",
+    "img": "/assets/img/shop/product/cookies_22.png",
     "trending": true,
     "topRated": true,
     "related_images": [
-      "/assets/img/shop/product/product_22.png",
-      "/assets/img/shop/product/product_23.png",
-      "/assets/img/shop/product/product_21.png"
+      "/assets/img/shop/product/cookies_22.png",
+      "/assets/img/shop/product/cookies_23.png",
+      "/assets/img/shop/product/cookies_21.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_19.png",
+    "thumb_img": "/assets/img/shop/product/cookies_19.png",
     "parentCategory": "FASHION FOR BABY",
     "category": "Shoes",
     "brand": "Apple",
@@ -1450,14 +1450,14 @@
   },
   {
     "id": 23,
-    "img": "/assets/img/shop/product/product_23.png",
+    "img": "/assets/img/shop/product/cookies_23.png",
     "bestSeller": true,
     "related_images": [
-      "/assets/img/shop/product/product_23.png",
-      "/assets/img/shop/product/product_21.png",
-      "/assets/img/shop/product/product_20.png"
+      "/assets/img/shop/product/cookies_23.png",
+      "/assets/img/shop/product/cookies_21.png",
+      "/assets/img/shop/product/cookies_20.png"
     ],
-    "thumb_img": "/assets/img/shop/product/product_11.png",
+    "thumb_img": "/assets/img/shop/product/cookies_11.png",
     "parentCategory": "FASHION FOR MEN’S",
     "category": "Shirt",
     "brand": "Apple",

@@ -17,17 +17,17 @@ type IProps = {
 
 const ShopSidebar = ({
   feature_products,
-  brands,
-  colors,
-  sizes,
+  // brands,
+  // colors,
+  // sizes,
 }: IProps) => {
   return (
     <div className="shop__sidebar">
       <CategoryFilter />
       <PriceFilter />
-      <SizeFilter sizes={sizes} />
-      <ColorFilter colors={colors} />
-      <BrandFilter brands={brands} />
+      {/* <SizeFilter sizes={sizes} /> */}
+      {/* <ColorFilter colors={colors} /> */}
+      {/* <BrandFilter brands={brands} /> */}
       <FeatureProducts products={feature_products} />
     </div>
   );

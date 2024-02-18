@@ -4,20 +4,20 @@ import { IHeroSlider } from '../types/hero-slider-t';
 const hero_slider_one: IHeroSlider[] = [
   {
     id: 1,
-    bgImg: '/assets/img/slider/slider-1.jpg',
+    bgImg: '/assets/img/slider/OATS.png',
     title: 'Delectable Bakery',
     subtitle: 'Wide range of fresh bakery products'
   },
   {
     id: 2,
-    bgImg: '/assets/img/slider/slider-2.jpg',
+    bgImg: '/assets/img/slider/custard_powder.png',
     title: 'Premium',
     subtitle:
       'High quality daily need products',
   },
   {
     id: 3,
-    bgImg: '/assets/img/slider/slider-3.jpg',
+    bgImg: '/assets/img/slider/rasiley_big.png',
     title: 'Beverages',
     subtitle:
       'Refreshing and flavoursome drinks',

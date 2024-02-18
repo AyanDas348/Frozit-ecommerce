@@ -11,6 +11,7 @@ export interface IMenuType {
       title: string,
     }[]
   }[],
+  fontSize:string,
 }
 
 
@@ -22,4 +23,5 @@ export interface IMobileMenu{
     link: string;
     title: string;
   }[];
+  fontSize:string,
 }

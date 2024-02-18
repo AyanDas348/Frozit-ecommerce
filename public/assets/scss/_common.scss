@@ -20,7 +20,7 @@
 
 .w-img{
 	& img{
-		width: 100%;
+		width: 50%;
 	}
 }
 .m-img{
@@ -396,11 +396,11 @@ p {
 	padding: 0 42px;
 	border: 2px solid $border;
 	color: $black-2;
-	background: transparent;
+	background: white;
 	z-index: 1;
 	font-size: 12px;
 	& span{
-		color: $theme-color;
+		color: white;
 	}
 	&::after{
 		position: absolute;
@@ -419,7 +419,7 @@ p {
 			height: 100%;
 		}
 		& span{
-			color: $white;
+			color: $black-2;
 		}
 	}
 	&-2{
@@ -538,7 +538,7 @@ p {
 	text-transform: capitalize;
 	font-weight: 500;
 	&:hover{
-		color: $theme-color;
+		color: $black-2;
 	}
 }
 .action-btn{

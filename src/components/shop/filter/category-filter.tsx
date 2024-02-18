@@ -39,29 +39,6 @@ const CategoryFilter = () => {
                     </button>
                   </h5>
                 </div>
-                <div
-                  id={`collapse-${i}`}
-                  className={`collapse ${category === item.parentTitle ? 'show' : ''}`}
-                  aria-labelledby={`accordion-${i}`}
-                  data-bs-parent="#accordion"
-                >
-                  <div className="card-body">
-                    <div className="categories__list">
-                      <ul>
-                        {item?.children?.map((list, j) => (
-                          <li key={j}>
-                            <a
-                              onClick={() => handleSubCategory(list)}
-                              className={`text-capitalize cursor-pointer ${subCategory === list ? 'active' : ''}`}
-                            >
-                              {list.toLowerCase()}
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-                </div>
               </div>
             ))}
           </div>

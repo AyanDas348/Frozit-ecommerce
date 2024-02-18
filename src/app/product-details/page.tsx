@@ -43,7 +43,7 @@ export default async function ProductDetailsPage() {
         {/* shop details upper area end */}
 
         {/* related products start */}
-        <RelatedProducts product_data={product_data} product={product}/>
+        {/* <RelatedProducts product_data={product_data} product={product}/> */}
         {/* related products end */}
       </main>
 

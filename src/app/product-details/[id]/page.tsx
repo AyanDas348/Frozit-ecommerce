@@ -9,6 +9,7 @@ import ProductDetailsUpper from "@/components/product-details/product-details-up
 import ProductDetailsBottom from "@/components/product-details/product-details-bottom";
 import RelatedProducts from "@/components/products/related-products";
 import { IProduct } from "@/types/product-d-t";
+import product_data from "@/data/product-data";
 
 export const metadata: Metadata = {
   title: "Shop Details Page",
@@ -16,9 +17,9 @@ export const metadata: Metadata = {
 
 export default async function ProductDetailsPage({params}:{params:{id:string}}) {
   const file = await fs.readFile(process.cwd() + '/src/app/product-data.json', 'utf8');
-  console.log(file)
-  const product_data = JSON.parse(file);
-  const product = product_data.find((p:IProduct) => p.id === Number(params.id));
+  // console.log(process.cwd())
+  // const product_data = JSON.parse(file);
+  const product = product_data.find((p:IProduct) => p.id === Number(params.id)) || product_data[0];
   return (
     <Wrapper>
       {/* header start */}
@@ -42,7 +43,7 @@ export default async function ProductDetailsPage({params}:{params:{id:string}}) 
         {/* shop details upper area end */}
 
         {/* related products start */}
-        <RelatedProducts product_data={product_data} product={product}/>
+        {/* <RelatedProducts product_data={product_data} product={product}/> */}
         {/* related products end */}
       </main>
 

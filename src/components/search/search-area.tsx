@@ -36,8 +36,6 @@ const SearchArea = ({ product_data }: IProps) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  console.log("first", productItems);
-
   return (
     <>
       <ShopArea

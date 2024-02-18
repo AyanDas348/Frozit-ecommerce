@@ -33,7 +33,7 @@ const PriceFilter = () => {
             <button type="submit">Filter</button>
             <label htmlFor="amount">Price :</label>
             <span className="input-range">
-              ${ priceValue[0] } - ${ priceValue[1] }
+              Rs. { priceValue[0] + 1 } - { priceValue[1] }
             </span>
           </div>
         </div>

@@ -38,21 +38,9 @@ const ShopArea = ({product_data,shop_right,shop_col}:IProps) => {
   useEffect(() => {
     let filteredData = [...product_data].filter((p) =>
       category ? p.parentCategory.toLowerCase() === category.toLowerCase() : true
-    ).filter((p) =>
-    subCategory ? p.category.toLowerCase() === subCategory.toLowerCase() : true
     ).filter((p) => p.price >= priceValue[0] && p.price <= priceValue[1]).filter((p) => {
       if (sizes.length > 0) {
         return p.sizes.some((s) => sizes.includes(s));
-      }
-      return true;
-    }).filter((p) => {
-      if (colors.length > 0) {
-        return p.colors.some((c) => colors.includes(c));
-      }
-      return true;
-    }).filter((p) => {
-      if (brand) {
-        return p.brand.toLowerCase() === brand.toLowerCase();
       }
       return true;
     })

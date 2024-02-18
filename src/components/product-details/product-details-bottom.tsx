@@ -19,8 +19,7 @@ const ProductDetailsBottom = ({product}:IProps) => {
                 <div className="nav nav-tabs justify-content-start justify-content-sm-center" id="pro-details" role="tablist">
                   <a className="nav-item nav-link active" id="des-tab" data-bs-toggle="tab" href="#des" role="tab" aria-controls="des" aria-selected="true" tabIndex={-1}>Description</a>
                   <a className="nav-item nav-link" id="add-tab" data-bs-toggle="tab" href="#add" role="tab" aria-controls="add" aria-selected="false" tabIndex={-1}>Additional Information</a>
-                  <a className="nav-item nav-link" id="review-tab" data-bs-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false" tabIndex={-1}>Reviews ({product.reviews.length})</a>
-                </div>
+                 </div>
               </nav>
             </div>
             <div className="tab-content" id="pro-detailsContent">
@@ -47,7 +46,7 @@ const ProductDetailsBottom = ({product}:IProps) => {
                   <ul>
                     <li><span>Weight</span></li>
                     <li><span>{product?.weight} KG</span></li>
-                    <li><span>Dimention</span></li>
+                    <li><span>Dimension</span></li>
                     <li><span>{product?.dimension}</span></li>
                     <li><span>Size</span></li>
                     <li><span>XL, XXL, LG, SM, MD</span></li>

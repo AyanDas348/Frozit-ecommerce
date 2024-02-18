@@ -23,6 +23,11 @@
 		width: 50%;
 	}
 }
+.w-img-full{
+	& img{
+		width: 100%;
+	}
+}
 .m-img{
 	& img{
 		max-width: 100%;

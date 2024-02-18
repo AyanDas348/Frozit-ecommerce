@@ -41,7 +41,7 @@ const ProductDetailsUpper = ({
                     <a key={i}
                       className={`nav-item nav-link cursor-pointer ${img === activeImg ? "active" : ""}`}
                     >
-                      <div className="product__nav-img w-img" onClick={() => handleImageActive(img)}>
+                      <div className="product__nav-img w-img-full" onClick={() => handleImageActive(img)}>
                         <Image
                           src={img}
                           alt="product-img"
@@ -55,7 +55,7 @@ const ProductDetailsUpper = ({
                 </nav>
               </div>
               <div className="tab-content mb-20" id="product-detailsContent">
-                <div className="product__modal-img product__thumb w-img">
+                <div className="product__modal-img product__thumb w-img-full">
                   <Image
                     src={activeImg}
                     alt="product-img"
@@ -73,42 +73,7 @@ const ProductDetailsUpper = ({
             </div>
           </div>
         )}
-
-        {style_2 && (
-          <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12">
-            <div className="product__modal-box">
-              <div className="tab-content mb-20" id="nav-tabContent">
-                <div className="product__modal-img w-img">
-                  <Image
-                    src={activeImg}
-                    alt="product-img"
-                    width={327}
-                    height={416}
-                  />
-                </div>
-              </div>
-              <nav>
-                <div className="nav nav-tabs justify-content-between">
-                  {product.related_images.map((img, i) => (
-                    <a key={i}
-                      className={`nav-item nav-link cursor-pointer ${img === activeImg ? "active" : ""}`}
-                    >
-                      <div className="product__nav-img w-img" onClick={() => handleImageActive(img)}>
-                        <Image
-                          src={img}
-                          alt="product-img"
-                          width={92}
-                          height={117}
-                        />
-                      </div>
-                    </a>
-                  ))}
-                </div>
-              </nav>
-            </div>
-          </div>
-        )}
-
+        
         <div
           className={style_2?"col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12":"col-xl-6 col-lg-6"}
         >
@@ -129,15 +94,12 @@ const ProductDetailsUpper = ({
               <span className="rating-no ml-10 rating-left">
                 {product.reviews.length} rating(s)
               </span>
-              <span className="review rating-left">
-                <a href="#">Add your Review</a>
-              </span>
             </div>
             <div className="product__price-2 mb-25">
-              <span>${product.price.toFixed(2)}</span>
+              <span>Rs. {product.price.toFixed(2)}</span>
               {product.old_price && (
                 <span className="old-price">
-                  ${product.old_price.toFixed(2)}
+                  Rs. {product.old_price.toFixed(2)}
                 </span>
               )}
             </div>
@@ -146,7 +108,7 @@ const ProductDetailsUpper = ({
             </div>
             <div className="product__modal-form mb-30">
               <form action="#">
-                <div className="product__modal-input size mb-20">
+                {/* <div className="product__modal-input size mb-20">
                   <label>
                     Size <i className="fas fa-star-of-life"></i>
                   </label>
@@ -156,8 +118,8 @@ const ProductDetailsUpper = ({
                       <option key={size}>{size}</option>
                     ))}
                   </select>
-                </div>
-                <div className="product__modal-input color mb-20">
+                </div> */}
+                {/* <div className="product__modal-input color mb-20">
                   <label>
                     Color <i className="fas fa-star-of-life"></i>
                   </label>
@@ -167,10 +129,10 @@ const ProductDetailsUpper = ({
                       <option key={clr}>{clr}</option>
                     ))}
                   </select>
-                </div>
-                <div className="product__modal-required mb-5">
+                </div> */}
+                {/* <div className="product__modal-required mb-5">
                   <span>Required Fields *</span>
-                </div>
+                </div> */}
                 <div className="pro-quan-area d-sm-flex align-items-center">
                   <div className="product-quantity-title">
                     <label>Quantity</label>
